@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post Resolvers getPosts should return a list of posts 1`] = `
+Object {
+  "data": Object {
+    "posts": Array [
+      Object {
+        "author": Object {
+          "email": "john.doe@example.com",
+          "firstName": "John",
+          "lastName": "Doe",
+        },
+        "id": "1",
+        "title": "Tint is hiring!",
+      },
+      Object {
+        "author": Object {
+          "email": "john.doe@example.com",
+          "firstName": "John",
+          "lastName": "Doe",
+        },
+        "id": "2",
+        "title": "Insurance: a $480B Addressable Market",
+      },
+      Object {
+        "author": Object {
+          "email": "alice.kellerman@example.com",
+          "firstName": "Alice",
+          "lastName": "Kellerman",
+        },
+        "id": "3",
+        "title": "Take Part Into the Future of Insurance",
+      },
+    ],
+  },
+}
+`;

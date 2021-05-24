@@ -1,0 +1,24 @@
+{
+  "name": "graphql-shield-tutorial",
+  "version": "1.0.0",
+  "description": "Example app using GraphQL Shield, support for the XXX blog post",
+  "main": "index.js",
+  "author": "Jonathan Petitcolas <petitcolas.jonathan@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "nodemon src/index",
+    "test": "jest --watch"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.24.0",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7",
+    "superagent": "^6.1.0"
+  }
+}
