@@ -10,7 +10,7 @@ module.exports = gql`
         id: ID!
         firstName: String!
         lastName: String!
-        email: String!
+        email: String
         role: UserRole!
         posts: [Post]!
     }
@@ -23,7 +23,7 @@ module.exports = gql`
     type Post {
         id: ID!
         title: String!
-        author: User!
+        author: User
         status: PostStatus!
     }
 
